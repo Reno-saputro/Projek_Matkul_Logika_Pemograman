@@ -99,12 +99,12 @@ clear.addEventListener('click', function() {
 calculat.addEventListener('click', function(){
     try {
         // Check if the input is "1 + 1"
-        if (display.value === "1+1") {
-            display.value = "I LOVE YOU";
-        }
-        else {
+        // if (display.value === "1+1") {
+        //     display.value = "I LOVE YOU";
+        // }
+        // else {
             display.value = eval(display.value);
-        }
+        // }
     } catch {
         display.value = "error";
     }
