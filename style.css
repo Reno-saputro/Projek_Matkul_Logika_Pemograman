@@ -186,7 +186,7 @@ nav {
     display: none;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding: 2rem;
 }
 
 .calculator {
